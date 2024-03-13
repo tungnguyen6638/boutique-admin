@@ -1,0 +1,22 @@
+.form {
+  background-color: #f1f3f5;
+}
+
+.form-header {
+  font-weight: 500;
+  font-size: 2.3rem;
+  color: #868e96;
+}
+
+.btn-signup > button {
+  background-color: #ff922b;
+  color: #f1f3f5;
+}
+
+.btn-signup > button:hover {
+  border: 1px #ff922b solid;
+}
+
+.navigate > a {
+  text-decoration: none;
+}

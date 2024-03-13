@@ -1,0 +1,53 @@
+.main {
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: auto;
+  height: 500px;
+}
+
+.main::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 10px;
+}
+
+.main::-webkit-scrollbar-thumb {
+  background-color: #ff922b;
+  border-radius: 12px;
+}
+
+.msg {
+  width: max-content;
+  /* margin-bottom: 1rem; */
+}
+
+.msg-user {
+  background-color: #ff922b;
+  float: right;
+  clear: right;
+  /* margin-right: 1rem; */
+  text-wrap: wrap;
+}
+
+.msg-user > p {
+  color: #f1f3f5;
+}
+
+.msg-admin {
+  background-color: #f1f3f5;
+  clear: right;
+  text-wrap: wrap;
+}
+
+@media (max-width: 440px) {
+  .main {
+    width: auto;
+  }
+
+  .main::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  .msg-user {
+    margin-right: 0;
+  }
+}
